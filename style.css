@@ -1,0 +1,67 @@
+.container{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-left: 200px;
+   
+    
+}
+.oo{
+
+}
+p{
+    display: block;
+    width:75%;
+    font-family: 'Varela Round', sans-serif;
+    color: silver;
+    font-size:1.3rem;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.download{
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.2rem;
+    height: 2.3em;
+    width: 9em;;
+    border-radius: 20px;
+    color:rgb(73, 233, 33);
+    border-color:rgb(73, 233, 33);
+    background-color: transparent;
+
+}
+.learn{
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.2rem;
+    height: 2.3em;
+    width: 9em;;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(61, 59, 59);
+    margin-left: 10px;
+
+}
+
+img{
+    margin:3em 0em 0em 1.5em;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .download{
+        margin:2em;
+        
+    }
+    .learn{
+        margin:2em;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+
+}
+
+
