@@ -4,11 +4,13 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin-left: 200px;
-   
-    
 }
 .oo{
+    margin-left: 150px;
+    width: 80%;
+    margin-right: -150px;
+    
+   
 
 }
 p{
@@ -50,7 +52,7 @@ img{
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1000px) {
     .download{
         margin:2em;
         
@@ -59,7 +61,12 @@ img{
         margin:2em;
     }
     p{
-        font-size: 0.9rem;
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+    .oo{
+        margin-left: 10%;
+        width: 90%;
     }
 
 }
